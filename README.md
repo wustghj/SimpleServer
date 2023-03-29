@@ -88,4 +88,4 @@ sh start.sh
 ## 致谢
 Linux高性能服务器编程，游双著
 
-[markparticle/WebServer](https://github.com/Sakura1221/SimpleWebServer)
+[Sakura1221/WebServer](https://github.com/Sakura1221/SimpleWebServer)

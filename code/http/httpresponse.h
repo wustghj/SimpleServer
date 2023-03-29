@@ -4,8 +4,10 @@
 #include <unordered_map>
 #include <fcntl.h>
 #include <unistd.h>
+#include <string>
 #include <sys/stat.h>
 #include <sys/mman.h>
+#include <regex>
 
 #include "../buffer/buffer.h"
 #include "../log/log.h"
@@ -37,8 +39,8 @@ private:
     int code;
     bool isKeepAlive;
 
-    string path;
-    string srcDir;
+    string path = "";
+    string srcDir = "";
 
     char* mmFile;
     struct stat mmFileStat;

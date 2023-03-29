@@ -1,0 +1,18 @@
+<form action="post">
+ 
+    <p><label>Select Name</label>
+      <select>
+        <?php 
+          foreach($names as $name => $place){
+            echo "<option>" . $name . "</option>";
+          }
+        ?>
+   
+      </select>
+    </p>
+   
+   
+    <p><label>Place</label><input name="male" value="" /></p>
+    <p><label>Contact</label><input name="female" value="" /></p>
+   
+  </form> 

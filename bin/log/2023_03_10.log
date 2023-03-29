@@ -1,0 +1,413 @@
+2023-03-10 00:03:47.610654 [info] : ========== Server init ==========
+2023-03-10 00:03:47.610664 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:03:47.610666 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:03:47.610668 [info] : LogSys level: 1
+2023-03-10 00:03:47.610669 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:03:47.610671 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:03:47.610672 [info] : ========= Server start =========
+2023-03-10 00:11:42.181531 [info] : ========== Server init ==========
+2023-03-10 00:11:42.181547 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:11:42.181550 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:11:42.181552 [info] : LogSys level: 1
+2023-03-10 00:11:42.181553 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:11:42.181554 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:11:42.181556 [info] : ========= Server start =========
+2023-03-10 00:11:48.730855 [info] : Client[18](192.168.10.1:32492) in, userCount:1
+2023-03-10 00:12:30.673338 [info] : ========== Server init ==========
+2023-03-10 00:12:30.673345 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:12:30.673347 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:12:30.673349 [info] : LogSys level: 1
+2023-03-10 00:12:30.673350 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:12:30.673352 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:12:30.673353 [info] : ========= Server start =========
+2023-03-10 00:15:27.698895 [info] : ========== Server init ==========
+2023-03-10 00:15:27.698901 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:15:27.698903 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:15:27.698905 [info] : LogSys level: 1
+2023-03-10 00:15:27.698906 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:15:27.698908 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:15:27.698909 [info] : ========= Server start =========
+2023-03-10 00:15:30.679415 [info] : Client[18](192.168.10.1:35309) in, userCount:1
+2023-03-10 00:15:30.679770 [info] : Client[18] in!
+2023-03-10 00:15:30.679789 [info] : Client[19](192.168.10.1:35565) in, userCount:2
+2023-03-10 00:15:30.679793 [info] : Client[19] in!
+2023-03-10 00:15:30.680862 [info] : Client[19] quit!
+2023-03-10 00:15:30.681012 [info] : Client[19](192.168.10.1:35565) quit, UserCount:1
+2023-03-10 00:15:32.402769 [info] : Client[19](192.168.10.1:36333) in, userCount:2
+2023-03-10 00:15:32.402840 [info] : Client[19] in!
+2023-03-10 00:15:32.405689 [info] : Client[18] quit!
+2023-03-10 00:15:32.405785 [info] : Client[18](192.168.10.1:35309) quit, UserCount:1
+2023-03-10 00:15:32.803540 [info] : Client[18](192.168.10.1:36589) in, userCount:2
+2023-03-10 00:15:32.803641 [info] : Client[18] in!
+2023-03-10 00:15:32.806249 [info] : Client[19] quit!
+2023-03-10 00:15:32.806437 [info] : Client[19](192.168.10.1:36333) quit, UserCount:1
+2023-03-10 00:15:32.970825 [info] : Client[19](192.168.10.1:36845) in, userCount:2
+2023-03-10 00:15:32.970918 [info] : Client[19] in!
+2023-03-10 00:15:32.973415 [info] : Client[18] quit!
+2023-03-10 00:15:32.973549 [info] : Client[18](192.168.10.1:36589) quit, UserCount:1
+2023-03-10 00:15:33.146765 [info] : Client[18](192.168.10.1:37101) in, userCount:2
+2023-03-10 00:15:33.146835 [info] : Client[18] in!
+2023-03-10 00:15:33.148183 [info] : Client[19] quit!
+2023-03-10 00:15:33.148301 [info] : Client[19](192.168.10.1:36845) quit, UserCount:1
+2023-03-10 00:15:33.593947 [info] : Client[19](192.168.10.1:37357) in, userCount:2
+2023-03-10 00:15:33.594006 [info] : Client[19] in!
+2023-03-10 00:15:33.595178 [info] : Client[18] quit!
+2023-03-10 00:15:33.595237 [info] : Client[18](192.168.10.1:37101) quit, UserCount:1
+2023-03-10 00:15:33.769643 [info] : Client[18](192.168.10.1:37613) in, userCount:2
+2023-03-10 00:15:33.769705 [info] : Client[18] in!
+2023-03-10 00:15:33.773430 [info] : Client[19] quit!
+2023-03-10 00:15:33.773599 [info] : Client[19](192.168.10.1:37357) quit, UserCount:1
+2023-03-10 00:15:34.252288 [info] : Client[19](192.168.10.1:37869) in, userCount:2
+2023-03-10 00:15:34.252375 [info] : Client[19] in!
+2023-03-10 00:15:34.254420 [info] : Client[18] quit!
+2023-03-10 00:15:34.254624 [info] : Client[18](192.168.10.1:37613) quit, UserCount:1
+2023-03-10 00:15:34.428061 [info] : Client[18](192.168.10.1:38125) in, userCount:2
+2023-03-10 00:15:34.428139 [info] : Client[18] in!
+2023-03-10 00:15:34.431013 [info] : Client[19] quit!
+2023-03-10 00:15:34.431081 [info] : Client[19](192.168.10.1:37869) quit, UserCount:1
+2023-03-10 00:15:34.619171 [info] : Client[19](192.168.10.1:38381) in, userCount:2
+2023-03-10 00:15:34.619247 [info] : Client[19] in!
+2023-03-10 00:15:34.621250 [info] : Client[18] quit!
+2023-03-10 00:15:34.621804 [info] : Client[18](192.168.10.1:38125) quit, UserCount:1
+2023-03-10 00:15:34.820583 [info] : Client[18](192.168.10.1:38637) in, userCount:2
+2023-03-10 00:15:34.820668 [info] : Client[18] in!
+2023-03-10 00:15:34.823156 [info] : Client[19] quit!
+2023-03-10 00:15:34.823331 [info] : Client[19](192.168.10.1:38381) quit, UserCount:1
+2023-03-10 00:15:35.011270 [info] : Client[19](192.168.10.1:38893) in, userCount:2
+2023-03-10 00:15:35.011364 [info] : Client[19] in!
+2023-03-10 00:15:35.014598 [info] : Client[18] quit!
+2023-03-10 00:15:35.014701 [info] : Client[18](192.168.10.1:38637) quit, UserCount:1
+2023-03-10 00:15:44.946936 [info] : Client[18](192.168.10.1:40173) in, userCount:2
+2023-03-10 00:15:44.947060 [info] : Client[18] in!
+2023-03-10 00:15:44.949545 [info] : Client[19] quit!
+2023-03-10 00:15:44.949626 [info] : Client[19](192.168.10.1:38893) quit, UserCount:1
+2023-03-10 00:15:45.338498 [info] : Client[19](192.168.10.1:40429) in, userCount:2
+2023-03-10 00:15:45.338679 [info] : Client[19] in!
+2023-03-10 00:15:45.341551 [info] : Client[18] quit!
+2023-03-10 00:15:45.341639 [info] : Client[18](192.168.10.1:40173) quit, UserCount:1
+2023-03-10 00:15:45.496509 [info] : Client[18](192.168.10.1:40685) in, userCount:2
+2023-03-10 00:15:45.496694 [info] : Client[18] in!
+2023-03-10 00:15:45.500764 [info] : Client[19] quit!
+2023-03-10 00:15:45.500923 [info] : Client[19](192.168.10.1:40429) quit, UserCount:1
+2023-03-10 00:15:45.656575 [info] : Client[19](192.168.10.1:40941) in, userCount:2
+2023-03-10 00:15:45.656755 [info] : Client[19] in!
+2023-03-10 00:15:45.659133 [info] : Client[18] quit!
+2023-03-10 00:15:45.659309 [info] : Client[18](192.168.10.1:40685) quit, UserCount:1
+2023-03-10 00:15:56.500685 [info] : Client[18](192.168.10.1:42477) in, userCount:2
+2023-03-10 00:15:56.500766 [info] : Client[18] in!
+2023-03-10 00:15:56.502068 [info] : Client[19] quit!
+2023-03-10 00:15:56.502134 [info] : Client[19](192.168.10.1:40941) quit, UserCount:1
+2023-03-10 00:16:07.971466 [info] : Client[19](192.168.10.1:45549) in, userCount:2
+2023-03-10 00:16:07.971603 [info] : Client[19] in!
+2023-03-10 00:16:07.973026 [info] : Client[18] quit!
+2023-03-10 00:16:07.973185 [info] : Client[18](192.168.10.1:42477) quit, UserCount:1
+2023-03-10 00:16:50.122696 [info] : Client[19] quit!
+2023-03-10 00:17:21.902098 [info] : ========== Server init ==========
+2023-03-10 00:17:21.902112 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:17:21.902115 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:17:21.902116 [info] : LogSys level: 1
+2023-03-10 00:17:21.902118 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:17:21.902155 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:17:21.902158 [info] : ========= Server start =========
+2023-03-10 00:17:26.757928 [info] : Client[18](192.168.10.1:10990) in, userCount:1
+2023-03-10 00:17:26.758137 [info] : Client[18] in!
+2023-03-10 00:17:26.758249 [info] : Client[19](192.168.10.1:11246) in, userCount:2
+2023-03-10 00:17:26.758271 [info] : Client[19] in!
+2023-03-10 00:17:26.761361 [info] : Client[18] quit!
+2023-03-10 00:17:26.761489 [info] : Client[18](192.168.10.1:10990) quit, UserCount:1
+2023-03-10 00:17:31.054712 [info] : Client[18](192.168.10.1:12014) in, userCount:2
+2023-03-10 00:17:31.054792 [info] : Client[18] in!
+2023-03-10 00:17:31.055488 [info] : Client[19] quit!
+2023-03-10 00:17:31.055550 [info] : Client[19](192.168.10.1:11246) quit, UserCount:1
+2023-03-10 00:18:26.812333 [info] : Client[19] quit!
+2023-03-10 00:18:31.059936 [info] : Client[18] quit!
+2023-03-10 00:18:31.060242 [info] : Client[18](192.168.10.1:12014) quit, UserCount:0
+2023-03-10 00:20:29.038040 [info] : Client[18](192.168.10.1:50926) in, userCount:1
+2023-03-10 00:20:29.038128 [info] : Client[18] in!
+2023-03-10 00:20:29.038136 [info] : Client[19](192.168.10.1:51182) in, userCount:2
+2023-03-10 00:20:29.038142 [info] : Client[19] in!
+2023-03-10 00:20:29.045175 [info] : Client[19] quit!
+2023-03-10 00:20:29.045297 [info] : Client[19](192.168.10.1:51182) quit, UserCount:1
+2023-03-10 00:20:29.638669 [info] : Client[19](192.168.10.1:51950) in, userCount:2
+2023-03-10 00:20:29.638785 [info] : Client[19] in!
+2023-03-10 00:20:29.640381 [info] : Client[18] quit!
+2023-03-10 00:20:29.640636 [info] : Client[18](192.168.10.1:50926) quit, UserCount:1
+2023-03-10 00:20:29.805628 [info] : Client[18](192.168.10.1:52206) in, userCount:2
+2023-03-10 00:20:29.805830 [info] : Client[18] in!
+2023-03-10 00:20:29.808215 [info] : Client[19] quit!
+2023-03-10 00:20:29.808294 [info] : Client[19](192.168.10.1:51950) quit, UserCount:1
+2023-03-10 00:20:29.983518 [info] : Client[19](192.168.10.1:52462) in, userCount:2
+2023-03-10 00:20:29.983592 [info] : Client[19] in!
+2023-03-10 00:20:29.985526 [info] : Client[18] quit!
+2023-03-10 00:20:29.985685 [info] : Client[18](192.168.10.1:52206) quit, UserCount:1
+2023-03-10 00:20:30.140313 [info] : Client[18](192.168.10.1:52718) in, userCount:2
+2023-03-10 00:20:30.140547 [info] : Client[18] in!
+2023-03-10 00:20:30.142752 [info] : Client[19] quit!
+2023-03-10 00:20:30.142872 [info] : Client[19](192.168.10.1:52462) quit, UserCount:1
+2023-03-10 00:20:30.317239 [info] : Client[19](192.168.10.1:52974) in, userCount:2
+2023-03-10 00:20:30.317324 [info] : Client[19] in!
+2023-03-10 00:20:30.319843 [info] : Client[18] quit!
+2023-03-10 00:20:30.319964 [info] : Client[18](192.168.10.1:52718) quit, UserCount:1
+2023-03-10 00:20:30.605551 [info] : Client[18](192.168.10.1:53230) in, userCount:2
+2023-03-10 00:20:30.605759 [info] : Client[18] in!
+2023-03-10 00:20:30.608637 [info] : Client[19] quit!
+2023-03-10 00:20:30.608788 [info] : Client[19](192.168.10.1:52974) quit, UserCount:1
+2023-03-10 00:20:30.789593 [info] : Client[19](192.168.10.1:53486) in, userCount:2
+2023-03-10 00:20:30.789805 [info] : Client[19] in!
+2023-03-10 00:20:30.791073 [info] : Client[18] quit!
+2023-03-10 00:20:30.791212 [info] : Client[18](192.168.10.1:53230) quit, UserCount:1
+2023-03-10 00:20:30.965321 [info] : Client[18](192.168.10.1:53742) in, userCount:2
+2023-03-10 00:20:30.965551 [info] : Client[18] in!
+2023-03-10 00:20:30.967421 [info] : Client[19] quit!
+2023-03-10 00:20:30.967475 [info] : Client[19](192.168.10.1:53486) quit, UserCount:1
+2023-03-10 00:20:31.141385 [info] : Client[19](192.168.10.1:53998) in, userCount:2
+2023-03-10 00:20:31.141467 [info] : Client[19] in!
+2023-03-10 00:20:31.145094 [info] : Client[18] quit!
+2023-03-10 00:20:31.145161 [info] : Client[18](192.168.10.1:53742) quit, UserCount:1
+2023-03-10 00:20:31.342165 [info] : Client[18](192.168.10.1:54254) in, userCount:2
+2023-03-10 00:20:31.342273 [info] : Client[18] in!
+2023-03-10 00:20:31.345014 [info] : Client[19] quit!
+2023-03-10 00:20:31.345078 [info] : Client[19](192.168.10.1:53998) quit, UserCount:1
+2023-03-10 00:21:31.171119 [info] : Client[19] quit!
+2023-03-10 00:21:31.344645 [info] : Client[18] quit!
+2023-03-10 00:21:57.393177 [info] : ========== Server init ==========
+2023-03-10 00:21:57.393182 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:21:57.393183 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:21:57.393185 [info] : LogSys level: 1
+2023-03-10 00:21:57.393186 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:21:57.393187 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:21:57.393189 [info] : ========= Server start =========
+2023-03-10 00:22:00.266711 [info] : Client[18](192.168.10.1:63214) in, userCount:1
+2023-03-10 00:22:00.266778 [info] : Client[18] in!
+2023-03-10 00:22:00.266783 [info] : Client[19](192.168.10.1:63470) in, userCount:2
+2023-03-10 00:22:00.266786 [info] : Client[19] in!
+2023-03-10 00:22:00.270134 [info] : Client[18] quit!
+2023-03-10 00:22:00.270253 [info] : Client[18](192.168.10.1:63214) quit, UserCount:1
+2023-03-10 00:22:01.554761 [info] : Client[18](192.168.10.1:64750) in, userCount:2
+2023-03-10 00:22:01.554867 [info] : Client[18] in!
+2023-03-10 00:22:01.557161 [info] : Client[19] quit!
+2023-03-10 00:22:01.557367 [info] : Client[19](192.168.10.1:63470) quit, UserCount:1
+2023-03-10 00:22:01.730125 [info] : Client[19](192.168.10.1:65006) in, userCount:2
+2023-03-10 00:22:01.730186 [info] : Client[19] in!
+2023-03-10 00:22:01.732163 [info] : Client[18] quit!
+2023-03-10 00:22:01.732229 [info] : Client[18](192.168.10.1:64750) quit, UserCount:1
+2023-03-10 00:22:01.859216 [info] : Client[18](192.168.10.1:65262) in, userCount:2
+2023-03-10 00:22:01.859302 [info] : Client[18] in!
+2023-03-10 00:22:01.861827 [info] : Client[19] quit!
+2023-03-10 00:22:01.861913 [info] : Client[19](192.168.10.1:65006) quit, UserCount:1
+2023-03-10 00:22:02.026594 [info] : Client[19](192.168.10.1:65518) in, userCount:2
+2023-03-10 00:22:02.026691 [info] : Client[19] in!
+2023-03-10 00:22:02.029838 [info] : Client[18] quit!
+2023-03-10 00:22:02.029923 [info] : Client[18](192.168.10.1:65262) quit, UserCount:1
+2023-03-10 00:22:02.202821 [info] : Client[18](192.168.10.1:495) in, userCount:2
+2023-03-10 00:22:02.202902 [info] : Client[18] in!
+2023-03-10 00:22:02.207098 [info] : Client[19] quit!
+2023-03-10 00:22:02.207165 [info] : Client[19](192.168.10.1:65518) quit, UserCount:1
+2023-03-10 00:22:02.340544 [info] : Client[19](192.168.10.1:751) in, userCount:2
+2023-03-10 00:22:02.340719 [info] : Client[19] in!
+2023-03-10 00:22:02.342268 [info] : Client[18] quit!
+2023-03-10 00:22:02.342373 [info] : Client[18](192.168.10.1:495) quit, UserCount:1
+2023-03-10 00:22:02.498951 [info] : Client[18](192.168.10.1:1007) in, userCount:2
+2023-03-10 00:22:02.499045 [info] : Client[18] in!
+2023-03-10 00:22:02.501873 [info] : Client[19] quit!
+2023-03-10 00:22:02.501960 [info] : Client[19](192.168.10.1:751) quit, UserCount:1
+2023-03-10 00:22:52.666305 [info] : ========== Server init ==========
+2023-03-10 00:22:52.666311 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:22:52.666312 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:22:52.666314 [info] : LogSys level: 1
+2023-03-10 00:22:52.666315 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:22:52.666316 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:22:52.666318 [info] : ========= Server start =========
+2023-03-10 00:22:56.233138 [info] : Client[18](192.168.10.1:31727) in, userCount:1
+2023-03-10 00:22:56.233431 [info] : Client[18] in!
+2023-03-10 00:22:56.233450 [info] : Client[19](192.168.10.1:31983) in, userCount:2
+2023-03-10 00:22:56.233454 [info] : Client[19] in!
+2023-03-10 00:22:56.236289 [info] : Client[18] quit!
+2023-03-10 00:22:56.236378 [info] : Client[18](192.168.10.1:31727) quit, UserCount:1
+2023-03-10 00:22:56.309290 [info] : Client[19] quit!
+2023-03-10 00:22:56.309459 [info] : Client[19](192.168.10.1:31983) quit, UserCount:0
+2023-03-10 00:22:57.797382 [info] : Client[18](192.168.10.1:32751) in, userCount:1
+2023-03-10 00:22:57.797436 [info] : Client[18] in!
+2023-03-10 00:22:57.797440 [info] : Client[19](192.168.10.1:33007) in, userCount:2
+2023-03-10 00:22:57.797443 [info] : Client[19] in!
+2023-03-10 00:22:57.800221 [info] : Client[19] quit!
+2023-03-10 00:22:57.800311 [info] : Client[19](192.168.10.1:33007) quit, UserCount:1
+2023-03-10 00:22:57.966800 [info] : Client[19](192.168.10.1:33263) in, userCount:2
+2023-03-10 00:22:57.966857 [info] : Client[19] in!
+2023-03-10 00:22:57.968745 [info] : Client[18] quit!
+2023-03-10 00:22:57.968819 [info] : Client[18](192.168.10.1:32751) quit, UserCount:1
+2023-03-10 00:22:58.133642 [info] : Client[18](192.168.10.1:33519) in, userCount:2
+2023-03-10 00:22:58.133712 [info] : Client[18] in!
+2023-03-10 00:22:58.135242 [info] : Client[19] quit!
+2023-03-10 00:22:58.135332 [info] : Client[19](192.168.10.1:33263) quit, UserCount:1
+2023-03-10 00:22:58.317130 [info] : Client[19](192.168.10.1:33775) in, userCount:2
+2023-03-10 00:22:58.317197 [info] : Client[19] in!
+2023-03-10 00:22:58.320359 [info] : Client[18] quit!
+2023-03-10 00:22:58.320524 [info] : Client[18](192.168.10.1:33519) quit, UserCount:1
+2023-03-10 00:22:58.510803 [info] : Client[18](192.168.10.1:34031) in, userCount:2
+2023-03-10 00:22:58.510877 [info] : Client[18] in!
+2023-03-10 00:22:58.512980 [info] : Client[19] quit!
+2023-03-10 00:22:58.513038 [info] : Client[19](192.168.10.1:33775) quit, UserCount:1
+2023-03-10 00:22:58.694654 [info] : Client[19](192.168.10.1:34287) in, userCount:2
+2023-03-10 00:22:58.694715 [info] : Client[19] in!
+2023-03-10 00:22:58.696035 [info] : Client[18] quit!
+2023-03-10 00:22:58.696252 [info] : Client[18](192.168.10.1:34031) quit, UserCount:1
+2023-03-10 00:22:58.870152 [info] : Client[18](192.168.10.1:34543) in, userCount:2
+2023-03-10 00:22:58.870232 [info] : Client[18] in!
+2023-03-10 00:22:58.871945 [info] : Client[19] quit!
+2023-03-10 00:22:58.872100 [info] : Client[19](192.168.10.1:34287) quit, UserCount:1
+2023-03-10 00:22:59.053753 [info] : Client[19](192.168.10.1:34799) in, userCount:2
+2023-03-10 00:22:59.053822 [info] : Client[19] in!
+2023-03-10 00:22:59.056125 [info] : Client[18] quit!
+2023-03-10 00:22:59.056194 [info] : Client[18](192.168.10.1:34543) quit, UserCount:1
+2023-03-10 00:22:59.255288 [info] : Client[18](192.168.10.1:35055) in, userCount:2
+2023-03-10 00:22:59.255382 [info] : Client[18] in!
+2023-03-10 00:22:59.257392 [info] : Client[19] quit!
+2023-03-10 00:22:59.257509 [info] : Client[19](192.168.10.1:34799) quit, UserCount:1
+2023-03-10 00:23:00.814748 [info] : Client[19](192.168.10.1:35311) in, userCount:2
+2023-03-10 00:23:00.814848 [info] : Client[19] in!
+2023-03-10 00:23:00.816529 [info] : Client[18] quit!
+2023-03-10 00:23:00.816604 [info] : Client[18](192.168.10.1:35055) quit, UserCount:1
+2023-03-10 00:23:00.975069 [info] : Client[18](192.168.10.1:35567) in, userCount:2
+2023-03-10 00:23:00.975153 [info] : Client[18] in!
+2023-03-10 00:23:00.977592 [info] : Client[19] quit!
+2023-03-10 00:23:00.977717 [info] : Client[19](192.168.10.1:35311) quit, UserCount:1
+2023-03-10 00:23:01.158919 [info] : Client[19](192.168.10.1:35823) in, userCount:2
+2023-03-10 00:23:01.158995 [info] : Client[19] in!
+2023-03-10 00:23:01.160533 [info] : Client[18] quit!
+2023-03-10 00:23:01.160738 [info] : Client[18](192.168.10.1:35567) quit, UserCount:1
+2023-03-10 00:23:01.334915 [info] : Client[18](192.168.10.1:36079) in, userCount:2
+2023-03-10 00:23:01.335009 [info] : Client[18] in!
+2023-03-10 00:23:01.336937 [info] : Client[19] quit!
+2023-03-10 00:23:01.337024 [info] : Client[19](192.168.10.1:35823) quit, UserCount:1
+2023-03-10 00:24:01.215610 [info] : Client[19] quit!
+2023-03-10 00:28:24.824116 [info] : ========== Server init ==========
+2023-03-10 00:28:24.824121 [info] : Port:12138, OpenLinger: false
+2023-03-10 00:28:24.824122 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 00:28:24.824124 [info] : LogSys level: 1
+2023-03-10 00:28:24.824125 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 00:28:24.824126 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 00:28:24.824128 [info] : ========= Server start =========
+2023-03-10 00:29:04.926082 [info] : Client[18](192.168.10.1:59889) in, userCount:1
+2023-03-10 00:29:04.926203 [info] : Client[18] in!
+2023-03-10 00:29:04.926212 [info] : Client[19](192.168.10.1:60145) in, userCount:2
+2023-03-10 00:29:04.926215 [info] : Client[19] in!
+2023-03-10 00:29:04.928690 [info] : Client[18] quit!
+2023-03-10 00:29:04.928804 [info] : Client[18](192.168.10.1:59889) quit, UserCount:1
+2023-03-10 00:29:05.318881 [info] : Client[18](192.168.10.1:61169) in, userCount:2
+2023-03-10 00:29:05.318965 [info] : Client[18] in!
+2023-03-10 00:29:05.320065 [info] : Client[19] quit!
+2023-03-10 00:29:05.320221 [info] : Client[19](192.168.10.1:60145) quit, UserCount:1
+2023-03-10 00:29:05.607604 [info] : Client[19](192.168.10.1:61681) in, userCount:2
+2023-03-10 00:29:05.607705 [info] : Client[19] in!
+2023-03-10 00:29:05.609717 [info] : Client[18] quit!
+2023-03-10 00:29:05.609806 [info] : Client[18](192.168.10.1:61169) quit, UserCount:1
+2023-03-10 00:29:05.766360 [info] : Client[18](192.168.10.1:62193) in, userCount:2
+2023-03-10 00:29:05.766445 [info] : Client[18] in!
+2023-03-10 00:29:05.769185 [info] : Client[19] quit!
+2023-03-10 00:29:05.769248 [info] : Client[19](192.168.10.1:61681) quit, UserCount:1
+2023-03-10 00:29:05.948923 [info] : Client[19](192.168.10.1:62449) in, userCount:2
+2023-03-10 00:29:05.948977 [info] : Client[19] in!
+2023-03-10 00:29:05.952030 [info] : Client[18] quit!
+2023-03-10 00:29:05.952173 [info] : Client[18](192.168.10.1:62193) quit, UserCount:1
+2023-03-10 00:58:45.663016 [info] : Client[19] quit!
+2023-03-10 00:58:45.663328 [info] : Client[19](192.168.10.1:62449) quit, UserCount:0
+2023-03-10 00:58:45.663633 [info] : Client[19] quit!
+2023-03-10 00:59:13.472553 [info] : Client[18](192.168.10.1:36093) in, userCount:1
+2023-03-10 00:59:13.472622 [info] : Client[18] in!
+2023-03-10 00:59:13.472628 [info] : Client[19](192.168.10.1:36349) in, userCount:2
+2023-03-10 00:59:13.472632 [info] : Client[19] in!
+2023-03-10 01:00:25.280399 [info] : ========== Server init ==========
+2023-03-10 01:00:25.280418 [info] : Port:12138, OpenLinger: false
+2023-03-10 01:00:25.280420 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 01:00:25.280422 [info] : LogSys level: 1
+2023-03-10 01:00:25.280424 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 01:00:25.280464 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 01:00:25.280467 [info] : ========= Server start =========
+2023-03-10 01:00:29.121372 [info] : Client[18](192.168.10.1:48893) in, userCount:1
+2023-03-10 01:00:29.122064 [info] : Client[18] in!
+2023-03-10 01:00:29.122093 [info] : Client[19](192.168.10.1:49149) in, userCount:2
+2023-03-10 01:00:29.122109 [info] : Client[19] in!
+2023-03-10 01:00:29.123177 [info] : Client[19] quit!
+2023-03-10 01:00:29.123264 [info] : Client[19](192.168.10.1:49149) quit, UserCount:1
+2023-03-10 01:00:30.409130 [info] : Client[19](192.168.10.1:49405) in, userCount:2
+2023-03-10 01:00:30.409388 [info] : Client[19] in!
+2023-03-10 01:00:30.411140 [info] : Client[18] quit!
+2023-03-10 01:00:30.411229 [info] : Client[18](192.168.10.1:48893) quit, UserCount:1
+2023-03-10 01:00:30.568694 [info] : Client[18](192.168.10.1:49661) in, userCount:2
+2023-03-10 01:00:30.568839 [info] : Client[18] in!
+2023-03-10 01:00:30.572283 [info] : Client[19] quit!
+2023-03-10 01:00:30.572456 [info] : Client[19](192.168.10.1:49405) quit, UserCount:1
+2023-03-10 01:00:30.727416 [info] : Client[19](192.168.10.1:49917) in, userCount:2
+2023-03-10 01:00:30.727498 [info] : Client[19] in!
+2023-03-10 01:00:30.729558 [info] : Client[18] quit!
+2023-03-10 01:00:30.729815 [info] : Client[18](192.168.10.1:49661) quit, UserCount:1
+2023-03-10 01:00:30.889556 [info] : Client[18](192.168.10.1:50173) in, userCount:2
+2023-03-10 01:00:30.889629 [info] : Client[18] in!
+2023-03-10 01:00:30.892221 [info] : Client[19] quit!
+2023-03-10 01:00:30.892413 [info] : Client[19](192.168.10.1:49917) quit, UserCount:1
+2023-03-10 01:00:31.057049 [info] : Client[19](192.168.10.1:50429) in, userCount:2
+2023-03-10 01:00:31.057133 [info] : Client[19] in!
+2023-03-10 01:00:31.058666 [info] : Client[18] quit!
+2023-03-10 01:00:31.058849 [info] : Client[18](192.168.10.1:50173) quit, UserCount:1
+2023-03-10 01:00:31.223311 [info] : Client[18](192.168.10.1:50685) in, userCount:2
+2023-03-10 01:00:31.223400 [info] : Client[18] in!
+2023-03-10 01:00:31.226603 [info] : Client[19] quit!
+2023-03-10 01:00:31.226705 [info] : Client[19](192.168.10.1:50429) quit, UserCount:1
+2023-03-10 01:00:31.377038 [info] : Client[19](192.168.10.1:50941) in, userCount:2
+2023-03-10 01:00:31.377153 [info] : Client[19] in!
+2023-03-10 01:00:31.379761 [info] : Client[18] quit!
+2023-03-10 01:00:31.379895 [info] : Client[18](192.168.10.1:50685) quit, UserCount:1
+2023-03-10 01:00:31.535481 [info] : Client[18](192.168.10.1:51197) in, userCount:2
+2023-03-10 01:00:31.535522 [info] : Client[18] in!
+2023-03-10 01:00:31.537046 [info] : Client[19] quit!
+2023-03-10 01:00:31.537165 [info] : Client[19](192.168.10.1:50941) quit, UserCount:1
+2023-03-10 01:00:31.711892 [info] : Client[19](192.168.10.1:51453) in, userCount:2
+2023-03-10 01:00:31.711942 [info] : Client[19] in!
+2023-03-10 01:00:31.714755 [info] : Client[18] quit!
+2023-03-10 01:00:31.714867 [info] : Client[18](192.168.10.1:51197) quit, UserCount:1
+2023-03-10 01:02:09.448381 [info] : ========== Server init ==========
+2023-03-10 01:02:09.448404 [info] : Port:12138, OpenLinger: false
+2023-03-10 01:02:09.448406 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 01:02:09.448408 [info] : LogSys level: 1
+2023-03-10 01:02:09.448409 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 01:02:09.448504 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 01:02:09.448507 [info] : ========= Server start =========
+2023-03-10 01:02:18.311331 [info] : Client[18](192.168.10.1:21246) in, userCount:1
+2023-03-10 01:08:01.853489 [info] : ========== Server init ==========
+2023-03-10 01:08:01.853509 [info] : Port:12138, OpenLinger: false
+2023-03-10 01:08:01.853511 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 01:08:01.853513 [info] : LogSys level: 1
+2023-03-10 01:08:01.853515 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 01:08:01.853555 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 01:08:01.853558 [info] : ========= Server start =========
+2023-03-10 01:08:06.750566 [info] : Client[18](192.168.10.1:30207) in, userCount:1
+2023-03-10 01:08:06.751362 [info] : Client[18] in!
+2023-03-10 01:08:06.751402 [info] : Client[19](192.168.10.1:30463) in, userCount:2
+2023-03-10 01:08:44.077694 [info] : ========== Server init ==========
+2023-03-10 01:08:44.077700 [info] : Port:12138, OpenLinger: false
+2023-03-10 01:08:44.077701 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-10 01:08:44.077703 [info] : LogSys level: 1
+2023-03-10 01:08:44.077704 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-10 01:08:44.077705 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-10 01:08:44.077707 [info] : ========= Server start =========
+2023-03-10 01:08:47.466657 [info] : Client[18](192.168.10.1:34815) in, userCount:1
+2023-03-10 01:08:47.466980 [info] : Client[18] in!
+2023-03-10 01:08:47.467267 [info] : Client[19](192.168.10.1:35071) in, userCount:2
+2023-03-10 01:08:47.467274 [info] : Client[19] in!
+2023-03-10 01:08:47.468981 [info] : Client[19] quit!
+2023-03-10 01:08:47.469109 [info] : Client[19](192.168.10.1:35071) quit, UserCount:1
+2023-03-10 01:08:48.214951 [info] : Client[19](192.168.10.1:35327) in, userCount:2
+2023-03-10 01:08:48.215043 [info] : Client[19] in!
+2023-03-10 01:08:48.217953 [info] : Client[18] quit!
+2023-03-10 01:08:48.218137 [info] : Client[18](192.168.10.1:34815) quit, UserCount:1
+2023-03-10 01:08:48.392225 [info] : Client[18](192.168.10.1:35583) in, userCount:2
+2023-03-10 01:08:48.392329 [info] : Client[18] in!
+2023-03-10 01:08:48.395030 [info] : Client[19] quit!
+2023-03-10 01:08:48.395117 [info] : Client[19](192.168.10.1:35327) quit, UserCount:1
+2023-03-10 01:08:48.559921 [info] : Client[19](192.168.10.1:35839) in, userCount:2
+2023-03-10 01:08:48.560035 [info] : Client[19] in!
+2023-03-10 01:08:48.561902 [info] : Client[18] quit!
+2023-03-10 01:08:48.562019 [info] : Client[18](192.168.10.1:35583) quit, UserCount:1
+2023-03-10 01:09:48.597737 [info] : Client[19] quit!
+2023-03-10 01:09:48.598517 [info] : Client[19](192.168.10.1:35839) quit, UserCount:0

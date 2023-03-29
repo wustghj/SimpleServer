@@ -95,7 +95,7 @@ HTTP_CODE HttpRequest::parse(Buffer& buffer)
             //search，找到返回第一个字符串下标，找不到返回最后一下标
             lineEnd = search(buffer.peek(), buffer.beginWriteConst(), CRLF, CRLF + 2);
             //如果没找到CRLF，也不是BODY，那么一定不完整
-            if (lineEnd == buffer.beginWrite()) return NO_REQUEST;
+            if (lineEnd == buffer.beginWrite()&& state == HEADERS) return NO_REQUEST;
             line = string(buffer.peek(), lineEnd);
             buffer.retrieveUntil(lineEnd + 2); // 除消息体外，都有换行符
         }
@@ -150,6 +150,39 @@ HTTP_CODE HttpRequest::parse(Buffer& buffer)
     //缓存读空了，但请求还不完整，继续读
     return NO_REQUEST;
 }
+//unicode解码
+
+unsigned char FromHex(unsigned char x)
+{
+	unsigned char y;
+	if (x >= 'A' && x <= 'Z') y = x - 'A' + 10;
+	else if (x >= 'a' && x <= 'z') y = x - 'a' + 10;
+	else if (x >= '0' && x <= '9') y = x - '0';
+	else assert(0);
+	return y;
+}
+
+
+std::string UrlDecode(const std::string& str)
+{
+	std::string strTemp = "";
+	size_t length = str.length();
+	for (size_t i = 0; i < length; i++)
+	{
+		if (str[i] == '+') strTemp += ' ';
+		else if (str[i] == '%')
+		{
+			assert(i + 2 < length);
+			unsigned char high = FromHex((unsigned char)str[++i]);
+			unsigned char low = FromHex((unsigned char)str[++i]);
+			strTemp += high * 16 + low;
+		}
+		else strTemp += str[i];
+	}
+	return strTemp;
+}
+
+const static std::regex regex_filesPath(".files.+");
 
 /* 解析地址 */
 void HttpRequest::parsePath()
@@ -159,7 +192,7 @@ void HttpRequest::parsePath()
         path += ".html";
     else if (path == "/list.json")
     {
-        auto files = getFiles("./files");
+        auto files = getFiles("./resources/files");
         Json::Value root;
         Json::Value file;
         for (int i = 0; i < (int)files.size(); i ++)
@@ -168,6 +201,15 @@ void HttpRequest::parsePath()
             root.append(file);
         }
         write_json("./resources/list.json", root);
+    }
+    // else if(path == "/files/+")
+    else if(regex_match(path,regex_filesPath)){
+        // cout<<"匹配到files"<<endl;
+        string newpath = "/files/";
+        string tobedecode = path.substr(7);
+        cout<<tobedecode<<endl;
+        newpath+=UrlDecode(tobedecode);
+        path = newpath;
     }
 }
 
@@ -245,7 +287,7 @@ HTTP_CODE HttpRequest::parseBody()
         LOG_INFO("upload file!");
         ofstream ofs;
         ofs.open("./resources/response.txt", ios::ate);
-        ofs << "./files/" << fileInfo["filename"];
+        ofs << "./resources/files/" << fileInfo["filename"];
         ofs.close();
         path = "/response.txt";
     }
@@ -328,7 +370,7 @@ void HttpRequest::parseFormData()
 
     ofstream ofs;
     // 如果文件分多次发送，应该采用app，同时为避免重复上传，应该用md5做校验
-    ofs.open("./files/" + fileInfo["filename"], ios::ate);
+    ofs.open("./resources/files/" + fileInfo["filename"], ios::ate);
     ofs << content;
     ofs.close();
 }

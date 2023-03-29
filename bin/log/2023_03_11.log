@@ -1,0 +1,83 @@
+2023-03-11 06:24:16.144671 [info] : ========== Server init ==========
+2023-03-11 06:24:16.144689 [info] : Port:12138, OpenLinger: false
+2023-03-11 06:24:16.144691 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 06:24:16.144693 [info] : LogSys level: 1
+2023-03-11 06:24:16.144694 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 06:24:16.144854 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 06:24:16.144858 [info] : ========= Server start =========
+2023-03-11 06:24:19.413181 [info] : Client[18](127.0.0.1:4244) in, userCount:1
+2023-03-11 06:24:19.413263 [info] : Client[18] in!
+2023-03-11 06:24:19.413849 [info] : Client[18] quit!
+2023-03-11 06:24:19.413911 [info] : Client[18](127.0.0.1:4244) quit, UserCount:0
+2023-03-11 06:24:20.453315 [info] : Client[18](127.0.0.1:6804) in, userCount:1
+2023-03-11 06:24:20.453458 [info] : Client[18] in!
+2023-03-11 06:24:20.453950 [info] : Client[18] quit!
+2023-03-11 06:24:20.453985 [info] : Client[18](127.0.0.1:6804) quit, UserCount:0
+2023-03-11 06:24:20.609692 [info] : Client[18](127.0.0.1:10900) in, userCount:1
+2023-03-11 06:24:20.609850 [info] : Client[18] in!
+2023-03-11 06:24:20.610356 [info] : Client[18] quit!
+2023-03-11 06:24:20.610421 [info] : Client[18](127.0.0.1:10900) quit, UserCount:0
+2023-03-11 06:24:20.786396 [info] : Client[18](127.0.0.1:13460) in, userCount:1
+2023-03-11 06:24:20.786541 [info] : Client[18] in!
+2023-03-11 06:24:20.786974 [info] : Client[18] quit!
+2023-03-11 06:24:20.787138 [info] : Client[18](127.0.0.1:13460) quit, UserCount:0
+2023-03-11 06:24:20.955384 [info] : Client[18](127.0.0.1:17044) in, userCount:1
+2023-03-11 06:24:20.955442 [info] : Client[18] in!
+2023-03-11 06:24:20.955849 [info] : Client[18] quit!
+2023-03-11 06:24:20.955863 [info] : Client[18](127.0.0.1:17044) quit, UserCount:0
+2023-03-11 06:24:21.133478 [info] : Client[18](127.0.0.1:19604) in, userCount:1
+2023-03-11 06:24:21.133620 [info] : Client[18] in!
+2023-03-11 06:24:21.134063 [info] : Client[18] quit!
+2023-03-11 06:24:21.134097 [info] : Client[18](127.0.0.1:19604) quit, UserCount:0
+2023-03-11 06:27:05.346225 [info] : ========== Server init ==========
+2023-03-11 06:27:05.346241 [info] : Port:12138, OpenLinger: false
+2023-03-11 06:27:05.346243 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 06:27:05.346245 [info] : LogSys level: 1
+2023-03-11 06:27:05.346246 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 06:27:05.346248 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 06:27:05.346250 [info] : ========= Server start =========
+2023-03-11 06:30:20.909950 [info] : ========== Server init ==========
+2023-03-11 06:30:20.909956 [info] : Port:12138, OpenLinger: false
+2023-03-11 06:30:20.909957 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 06:30:20.909958 [info] : LogSys level: 1
+2023-03-11 06:30:20.909960 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 06:30:20.909961 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 06:30:20.909962 [info] : ========= Server start =========
+2023-03-11 08:13:53.863886 [info] : ========== Server init ==========
+2023-03-11 08:13:53.863891 [info] : Port:12138, OpenLinger: false
+2023-03-11 08:13:53.863893 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 08:13:53.863894 [info] : LogSys level: 1
+2023-03-11 08:13:53.863896 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 08:13:53.863897 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 08:13:53.863899 [info] : ========= Server start =========
+2023-03-11 08:15:20.169323 [info] : ========== Server init ==========
+2023-03-11 08:15:20.169327 [info] : Port:12138, OpenLinger: false
+2023-03-11 08:15:20.169329 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 08:15:20.169330 [info] : LogSys level: 1
+2023-03-11 08:15:20.169332 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 08:15:20.169334 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 08:15:20.169335 [info] : ========= Server start =========
+2023-03-11 08:16:10.865533 [info] : ========== Server init ==========
+2023-03-11 08:16:10.865538 [info] : Port:12138, OpenLinger: false
+2023-03-11 08:16:10.865540 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 08:16:10.865541 [info] : LogSys level: 1
+2023-03-11 08:16:10.865542 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 08:16:10.865544 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 08:16:10.865546 [info] : ========= Server start =========
+2023-03-11 08:16:16.509963 [info] : Client[18](192.168.10.1:64711) in, userCount:1
+2023-03-11 08:16:16.510068 [info] : Client[18] in!
+2023-03-11 08:24:04.827772 [info] : ========== Server init ==========
+2023-03-11 08:24:04.827777 [info] : Port:12138, OpenLinger: false
+2023-03-11 08:24:04.827778 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 08:24:04.827780 [info] : LogSys level: 1
+2023-03-11 08:24:04.827781 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 08:24:04.827782 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 08:24:04.827784 [info] : ========= Server start =========
+2023-03-11 08:24:12.568099 [info] : Client[18](192.168.10.1:32201) in, userCount:1
+2023-03-11 08:25:22.532497 [info] : ========== Server init ==========
+2023-03-11 08:25:22.532502 [info] : Port:12138, OpenLinger: false
+2023-03-11 08:25:22.532504 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-03-11 08:25:22.532505 [info] : LogSys level: 1
+2023-03-11 08:25:22.532507 [info] : srcDir: /home/linux/MySimpleWebServer/bin/resources/
+2023-03-11 08:25:22.532508 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-03-11 08:25:22.532510 [info] : ========= Server start =========

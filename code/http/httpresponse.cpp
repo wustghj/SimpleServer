@@ -173,6 +173,7 @@ void HttpResponse::addHeader(Buffer& buffer)
     buffer.append("Content-type: " + getFileType() + "\r\n");
 }
 
+ const static std::regex regex_mp4(".+.mp4");
 /* 添加响应体 */
 void HttpResponse::addContent(Buffer& buffer)
 {
@@ -187,7 +188,7 @@ void HttpResponse::addContent(Buffer& buffer)
     //将文件映射到内存提高文件的访问速度
     //PROT_READ：映射区可读
     //MAP_PRIVATE：写入时复制
-    int* mmRet = (int*)mmap(0, mmFileStat.st_size, PROT_READ, MAP_PRIVATE, srcfd, 0);
+    int* mmRet = (int*)mmap(0, mmFileStat.st_size+1, PROT_READ, MAP_PRIVATE, srcfd, 0);
     if (*mmRet == -1)
     {
         errorContent(buffer, "File Not Found!");
@@ -196,6 +197,10 @@ void HttpResponse::addContent(Buffer& buffer)
     mmFile = (char*)mmRet;
     close(srcfd);
     buffer.append("Content-length: " + to_string(mmFileStat.st_size) + "\r\n\r\n");
+    // if(regex_match(path,regex_mp4)){
+    //     buffer.append("Accept-Ranges: bytes\r\n");
+    //     buffer.append("Content-Range: bytes 0-" + to_string(mmFileStat.st_size-1)+"/"+to_string(mmFileStat.st_size) + "\r\n\r\n");
+    // }
 }
 
 /* 范围内的错误页面 */

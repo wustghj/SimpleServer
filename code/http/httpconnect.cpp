@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const char* HttpConnect::srcDir;
+const char* HttpConnect::srcDir = "../resources";
 atomic<int> HttpConnect::userCnt;
 bool HttpConnect::isET;
 

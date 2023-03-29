@@ -247,7 +247,7 @@ var ZYFILE = {
 					itemHeight       : "120px",                           // 文件项的高度
 					url              : "/upload/UploadAction",  	      // 上传文件的路径
 					fileType         : [],                                // 上传文件的类型
-					fileSize         : 51200000,                          // 上传文件的大小
+					fileSize         : 512000000,                          // 上传文件的大小
 					multiple         : true,  						      // 是否可以多个文件上传
 					dragDrop         : false,  						      // 是否可以拖动上传文件
 //					edit             : true,  						      // 是否可以编辑文件（裁剪）

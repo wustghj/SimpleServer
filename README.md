@@ -89,3 +89,20 @@ sh start.sh
 Linux高性能服务器编程，游双著
 
 [Sakura1221/WebServer](https://github.com/Sakura1221/SimpleWebServer)
+
+### 25/02/24 更新新的构建方式
+- 1. cmake方式， 运行一下命令
+```
+mkdir -p build \
+    && cd build \
+    && cmake .. \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DMYSQL_CLIENT_LIB=/usr/lib64/mysql/libmysqlclient.so.20 \
+    && make
+```
+
+- 2. Dockerfile构建
+```
+docker build -t simpleserver .
+docker run -p 8080:8080 --rm simpleserver
+```
